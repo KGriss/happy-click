@@ -1,6 +1,6 @@
 @font-face {
   font-family: ClickChesse;
-  src: url("Click-Cheese.otf");
+  src: url("assets/fonts/Click-Cheese.otf");
   font-weight: bold;
 }
 
@@ -28,7 +28,7 @@ body {
     margin: 0;
     padding: 0;
     /* background: #f4f4f4; */
-    background: url("background_copilot.png") no-repeat top center;
+    background: url("assets/images/background_image.png") no-repeat top center;
     background-size: cover;
     background-attachment: fixed;
     text-align: center;
