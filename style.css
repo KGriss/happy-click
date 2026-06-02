@@ -242,6 +242,10 @@ main p {
     flex-direction: column;
 }
 
+.center_and_space_around p {
+    text-indent: 2em;
+}
+
 /* .center_and_space_around p {
     text-align: justify;
     font-family: "Ubuntu", "Josefin Sans Variable";
@@ -360,10 +364,10 @@ canvas #pdf
 }
 
 /* On small screens fixed backgrounds can cause rendering issues — use scroll there */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
         body {
                 background-attachment: scroll;
                 background-size: cover;
         }
 }
-
+ */
